@@ -8,7 +8,7 @@ middle_name:
 last_name: Masleshov
 email: freelancer@masleshov.dev
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Freelancer that can deliver everything
+  Freelancer that can deliver anything
 footer_text: >
   Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>
 keywords: freelance c# java csharp go golang
