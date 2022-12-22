@@ -2,96 +2,192 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Leonid Masleshov
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th November 1993
     - name: Languages
-      value: English, German
+      value: English, Russian
+    - name: Programming Languages
+      value: C#, Java, Golang, Node.js
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master degree
+      institution: Siberian State Aerospace University, Krasnoyarsk, Russian Federation
+      year: 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Information Systems Security
+
+- title: Employment
+  type: time_table
+  contents:
+    - title: Software Development Engineer
+      institution: Akvelon Inc.
+      year: 2022 - 2022
+      description:
+        - title: Global Search - a plugin to Microsoft Dynamics 365 
+          contents: 
+            - Developed the backend side of the plugin
+            - Maintained frontend side, fixing frontend bugs
+            - Optimized performance of loading big amount of emails from a source
+            - Added license server support to the on-premise version
+          footer: C#, .NET Framework, OData, Dataverse, HTML/CSS, Javascript, JQuery, Azure
+        - title: Akvelon Bootcamp - internal program to grow trainees 
+          contents: 
+            - Mentored trainees on both C# and Java stacks
+            - Taught trainees, answering their questions
+            - Conducted code review
+          footer: C#, .NET Core, Entity Framework, MS SQL, Java, Spring Framework, Gradle, JPA, Postgres
+        - title: URL Shortener - small application to make short versions of URLs 
+          contents: 
+            - Developed the entire application from scratch
+            - Packed all parts of the application to docker-compose
+            - Deployed to Oracle Cloud as a stage
+          footer: Javascript, Node.js, React, React-Bootstrap, MongoDB, HTML/CSS, Oracle Cloud, Docker
+    - title: Software Development Engineer
+      institution: Moscow Exchange
+      year: 2020 - 2022
+      description:
+        - title: Finuslugi - a financial marketplace 
+          contents: 
+            - Developed the backend side of the system
+            - Implemented a set of microservices for managing auto insurance policies from scratch
+            - Implemented performance-sensitive integration with third-party system
+            - Implemented a library with authorization annotations for all teams from scratch
+            - Implemented a library for sanitizing input HTML for all teams from scratch
+            - Implemented backend for headless CMS from scratch
+            - Refactored shopping cart's backend due to a bunch of bugs
+            - Provided code review
+            - Supported existing functionality
+            - Communicated with business and third-party system representatives
+            - Participated in architecture design with staff architectures
+            - Implemented unit tests
+          footer: Java, Spring Boot, REST API, Kafka, PostgreSQL, Redis, Docker, k8s
+    - title: Lead Software Development Engineer
+      institution: Finam
+      year: 2020 - 2020
+      description:
+        - title: SPC Novoadvisor - clients' portfolio analyzing system 
+          contents: 
+            - Led a team of 3 developers
+            - Communicated with business and adjacent teams
+            - Conducted interviews with potential candidates
+            - Designed architecture of the system
+            - Developed the backend side and database logic 
+          footer: C#, .NET Core, REST API, gRPC, Consul, MS SQL, Docker, k8s
+    - title: Software Development Engineer
+      institution: Alor Broker
+      year: 2018 - 2020
+      description:
+        - title: WARP - an exchange trading system
+          contents: 
+            - Developed the backend side of the system
+            - Implemented a connector to the Saint-Petersburg Exchange of Foreign Securities from scratch
+            - Refactored a service for gathering market data from exchanges' connectors
+            - Refactored some parts of the connector to Moscow Exchange
+            - Optimized an algorithm for giving candles away to customers 3 times.
+            - Optimized an algorithm for loading order book from Moscow Exchange in proportion to the number of instruments
+            - Implemented a centralized cache of instruments
+            - Implemented Websocket API that allows getting real-time market data
+            - Implemented a performance-sensitive loading of historical market data from a third-party system
+            - Participated in architecture design of trading IT infrastructure 
+          footer: C#, .NET Core, REST API, Websocket, Redis, RabbitMQ, Oracle DB, Docker, k8s
+    - title: Software Development Engineer
+      institution: Adacta Fintech
+      year: 2018 - 2018
+      description:
+        - title: AdInsure - a CRM system for insurance companies
+          contents: 
+            - Developed the backend side of the accounting module
+            - Optimized performance of complex SQL queries
+            - Communicated with business 
+            - Fixed bugs in the existing code base
+            - Implemented unit tests
+          footer: C#, .NET Framework, WPF, WCF, REST API, Oracle DB, PL\SQL
+    - title: Lead Software Development Engineer
+      institution: UC RUSAL
+      year: 2016 - 2018
+      description:
+        - title: ACS Foundry - a manufacturing enterprise system for the group of aluminum smelters
+          contents: 
+            - Led a team of 5 developers
+            - Communicated with business
+            - Conducted interviews with potential candidates
+            - Planned activities for the project
+            - Taught the smelters' employees working with the developed system
+            - Designed the system's architecture and write code
+            - Developed mostly backend side and database logic in store procedures
+            - Implemented performance-sensitive data transfer to a third-party system using PL\SQL
+            - Provided code review
+            - Implemented unit tests
+          footer: C#, .NET Framework, Windows Forms, Entity Framework, MEF, Oracle DB, PL\SQL
+    - title: Software Development Engineer
+      institution: Digital Mind Development Ltd.
+      year: 2013 - 2016
+      description:
+        - title: ACS Foundry - a manufacturing enterprise system for the group of aluminum smelters
+          contents: 
+            - Developed frontend and backend sides
+            - Implemented a performance-sensitive algorithm for quantifying the essential fraction of alloying materials 
+            - Implemented allying materials accounting subsystem
+            - Optimized overall performance
+            - Participated in architecture design
+            - Communicated with business
+            - Implemented unit tests
+            - Provided planning and estimation
+          footer: C#, .NET Framework, Windows Forms, Entity Framework, MEF, Oracle DB, PL\SQL
+        - title: Electrolyzer Passport - a reporting portal for the aluminum company 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+            - Developed complex data queries using HQL and SQL
+            - Designed reports in JasperReports
+            - Fixed bugs in existing reports
+            - Provided planning and estimation 
+          footer: SQL, Oracle DB, Hibernate, HQL, JasperReports
+        - title: BDE MES - production data visualization system
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Fixed bugs on frontend and backend sides
+            - Provided planning and estimation 
+          footer: C#, .NET Framework, Silverlight, Entity Framework, MS SQL
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Freelance
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Spotify API Wrapper
+      year: 2022
+      description: 
+        - title: Web API for integration with Spotify
+          contents: 
+            - Implemented an API for getting tracks from Spotify from scratch
+            - Implemented the authorization using JWT 
+          footer: Node.js, Express
+    - title: PDF API
+      year: 2021
+      description: 
+        - title: Web API for integration with third-party system
+          contents: 
+            - Implemented a service working with a third-party system related to PDF conversion from scratch
+            - Implemented a two-factor registration and authentication flow using email and phone
+            - Designed architecture of service and database structure
+          footer: C#, .NET Core, Postgres, Dapper ORM
+    - title: Rice & Pizza
+      year: 2021
+      description: 
+        - title: Mobile application for a fast food startup
+          contents: 
+            - Designed architecture of the backend
+            - Developed the backend and the database structure
+            - Implemented base backend version from scratch
+            - Implemented an identity provider service from scratch
+            - Implemented a two-factor registration and authentication flow using email and phone
+            - Conducted code review 
+          footer: C#, .NET Core, Postgres, Dapper ORM
+    - title: Strava Gate
+      year: 2020
+      description: 
+        - title: Web API for integration with Strava
+          contents: 
+            - Implemented a service for getting data from Strava from scratch
+            - Integrated with other services in team infrastructure
+            - Designed architecture and database structure
+          footer: Node.js, Express

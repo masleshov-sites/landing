@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - masleshov
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - masleshov/pdf-api
+  - masleshov/blazor-admin-panel
+  - masleshov/strava-gate
+  - masleshov/spotify-sample-api
+  - masleshov/accounting
+  - masleshov/gziptest

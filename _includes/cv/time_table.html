@@ -27,6 +27,9 @@
                         <li><span class="subitem">{{ subitem }}</span></li>
                       {% endfor %}
                       </ul>
+                      {% if item.footer %}
+                        <span class="item-footer">{{ item.footer }}</span>
+                      {% endif %}
                     {% else %}
                       <span class="item">{{ item }}</span>
                     {% endif %}
