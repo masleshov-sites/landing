@@ -20,4 +20,4 @@ Having been a team-leader, I gained the experience of people management, ability
 
 My hard skills and knowledge allow me to solve any task in any technologies, but what I do best is high-loaded backend development, integrations with any third-party systems, architectural design of complex systems. 
 
-If you're interested in a collaboration with me, please, contact me in any convenient way from those available below.
+If you're interested in collaboration with me, please, contact me in any convenient way from those available below.
