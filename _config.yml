@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Freelancer that can deliver anything
 footer_text: >
   Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-keywords: freelance c# java csharp go golang
+keywords: freelance c# java csharp go golang webapi api spring asp .net core ef
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon/favicon.ico
