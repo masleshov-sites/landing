@@ -14,7 +14,7 @@ footer_text: >
 keywords: freelance c# java csharp go golang
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon/favicon.ico
 
 url: https://masleshov.dev
 baseurl: 
